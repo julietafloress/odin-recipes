@@ -1,0 +1,87 @@
+/* ------- GENREAL PARA TODAS LAS PAGINAS ------- */
+*{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    border: 16px;
+    background-color: rgb(210, 225, 235);
+}
+
+h1 {
+    background-color: rgb(170, 200, 220);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 15px;
+}
+
+button {
+    background-color: rgb(70, 110, 150);
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+button a {
+    background-color: rgb(70, 110, 150);
+    color: white;
+}
+
+.ft-asian, .ft-tacos, .ft-dumplings {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+/* ------- PAGINA DE ASIAN ------- */
+.description, .ingredients, .steps{
+    background-color: rgb(170, 200, 220);
+    border-radius: 16px;
+    padding: 15px;
+    border: 20px;
+}
+
+.description, .ingredients {
+    width: 700px;
+    height: 200px;
+    margin: 15px;
+}
+
+.steps {
+    margin: 15px;
+}
+
+.description h2, .description p,
+.ingredients h2, .ingredients ul, .ingredients li, .ingredients p, 
+.steps h2, .steps ol, .steps li {
+    background-color: transparent;
+}
+
+/* ------- PAGINA DE TACOS ------- */
+.description-tacos, .ingredients-tacos {
+    background-color: rgb(170, 200, 220);
+    border-radius: 16px;
+    padding: 15px;
+    border: 10px;
+    margin: 20px;
+}
+
+.ingredients-tacos ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 40px;
+}
+
+.description-tacos h2, .description-tacos p,
+.ingredients-tacos h2, .ingredients-tacos ul, .ingredients-tacos li, .ingredients-tacos p {
+    background-color: transparent;
+}
